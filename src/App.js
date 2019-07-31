@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import Header from './components/header/header-component';
-import Dashboard from './pages/dashboard/dashboard-component';
+import Dashboard from './pages/dashboard/collabs-component';
 
 
 function App() {
