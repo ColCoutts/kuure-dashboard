@@ -66,3 +66,15 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+//random stuff for chart
+        <VictoryAxis 
+          tickValues={[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]}
+          tickFormat={['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']}
+        />
+        <VictoryAxis
+          dependentAxis
+          tickFormat={(x) => (`${x / 1000}k`)}
+        />
+        <VictoryBar data={data} x='month' y='totalViews' />
