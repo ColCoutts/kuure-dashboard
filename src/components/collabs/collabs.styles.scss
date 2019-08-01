@@ -1,10 +1,20 @@
-.collabs-menu {
-  width: 35vw;
-  height: 100vh;
+.collabs-header {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 50px 25px;
-  overflow: scroll;
   background-color: lightgray;
+  flex-direction: column;
+  margin: 5em 5em;
+
+  .collab-title {
+    padding: 2rem 2rem;
+  }
+
+  .collabs-menu {
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: scroll;
+    background-color: lightgray;
+  }
 }

@@ -10,7 +10,7 @@
   .logo-container {
     height: 100%;
     width: 70px;
-    padding: 5px 45px;
+    padding: .5em 4.5em;
   }
 
   .options {
@@ -21,8 +21,9 @@
     justify-content: flex-end;
 
     .option {
-      padding: 15px 45px;
+      padding: 1.5em 4.5em;
       font-weight: 500;
+      font-size: 1.5em;
     }
   }
 }

@@ -15,8 +15,8 @@ const MenuItem = ({ title, description, imageUrl, history, match, linkUrl }) => 
     ></div>
     <div className='content'>
       <h1 className='title'>{title}</h1>
-      <h2>{description}</h2>
-      <span>REQUEST</span>
+      <h2 className='subtitle'>{description}</h2>
+      <h3>REQUEST</h3>
     </div>
   </div>
 );

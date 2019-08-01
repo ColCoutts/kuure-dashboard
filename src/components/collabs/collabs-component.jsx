@@ -14,8 +14,8 @@ class Collabs extends Component {
   render() {
     const { sections } = this.state;
     return (
-      <div>
-        <div>
+      <div className='collabs-header'>
+        <div className='collab-title'>
           <h1>Collabs</h1>
           <h2>Available Products</h2>
         </div>
