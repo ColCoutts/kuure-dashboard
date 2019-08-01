@@ -1,0 +1,18 @@
+.metric-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  h1 {
+    color: #45464C;
+    font-family: 'Open Sans';
+    margin-bottom: .5rem;
+  }
+
+  h2 {
+    color: darkgray;
+    font-weight: lighter;
+    font-size: 1.25em;
+  }
+}
