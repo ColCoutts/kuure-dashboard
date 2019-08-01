@@ -17,7 +17,7 @@ const MenuItem = ({ title, description, imageUrl, history, match, linkUrl }) => 
     <div className='content'>
       <h1 className='title'>{title}</h1>
       <h2 className='subtitle'>{description}</h2>
-      <CustomButton>REQUEST</CustomButton>
+      <CustomButton>request</CustomButton>
      </div>
   </div>
 );
