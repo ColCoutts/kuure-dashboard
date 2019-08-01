@@ -1,6 +1,7 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
 import './menu-item.styles.scss';
+import CustomButton from '../custom-button/custom-button.component';
 
 const MenuItem = ({ title, description, imageUrl, history, match, linkUrl }) => (
   <div
@@ -16,8 +17,8 @@ const MenuItem = ({ title, description, imageUrl, history, match, linkUrl }) => 
     <div className='content'>
       <h1 className='title'>{title}</h1>
       <h2 className='subtitle'>{description}</h2>
-      <h3>REQUEST</h3>
-    </div>
+      <CustomButton>REQUEST</CustomButton>
+     </div>
   </div>
 );
 
