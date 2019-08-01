@@ -2,11 +2,11 @@
   display: flex;
   background-color: white;
   flex-direction: column;
-  margin: 5em 5em;
+  margin: 5rem 5rem;
 
   .collab-title {
     padding: 2rem 2rem;
-
+    
     h1 {
       color: #9f8f7b;
       padding-bottom: 1rem;
@@ -20,11 +20,11 @@
 
   .collabs-menu {
     width: 30vw;
-    height: 100vh;
+    height: 85vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    overflow: scroll;
+    overflow-y: scroll;
     background-color: white;
   }
 }
