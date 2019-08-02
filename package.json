@@ -1,7 +1,7 @@
 {
   "name": "kuure-dashboard",
   "version": "0.1.0",
-  "homepage": "https://colcoutts.github.io/kuure-dashboard/public/index.html",
+  "homepage": "https://colcoutts.github.io/kuure-dashboard/index.html",
   "private": true,
   "dependencies": {
     "enzyme": "^3.10.0",
