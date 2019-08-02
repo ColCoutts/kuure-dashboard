@@ -18,11 +18,7 @@ class Victory extends Component {
 
   render() {
     return(
-      <VictoryChart
-      margin={{ bottom: 80}}
-      width={400}
-      height={275}
-      >
+      <VictoryChart>
         <VictoryGroup
           offset={5}
           colorScale={"qualitative"}
