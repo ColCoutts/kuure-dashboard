@@ -18,7 +18,7 @@ class CustomTheme extends Component {
           />
 
           <g transform={"translate(0, 40)"}>
-            {/* Add shared independent axis */}
+
             <VictoryAxis
               domain={[0, 12]}
               standalone={false}
@@ -26,10 +26,6 @@ class CustomTheme extends Component {
               tickValues={tickValues}
             />
 
-            {/*
-              Add the dependent axis for the first data set.
-              Note that all components plotted against this axis will have the same y domain
-            */}
             <VictoryAxis dependentAxis
               domain={[0, 20000]}
               offsetX={50}
