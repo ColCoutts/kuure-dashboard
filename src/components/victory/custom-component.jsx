@@ -11,7 +11,7 @@ class CustomTheme extends Component {
 
     return (
       <div>
-        <svg style={styles.parent} viewBox="-50 0 550 450">
+        <svg style={styles.parent} viewBox="-50 30 550 450">
 
           <VictoryLabel x={0} y={55} style={styles.labelOne}
             text={"2019 Dashboard"}
@@ -139,15 +139,15 @@ class CustomTheme extends Component {
   }
 
   getStyles() {
-    const BLUE_COLOR = "#00a3de";
-    const RED_COLOR = "#7c270b";
-    const PURPLE_COLOR = "#f2f2";
+    const BLUE_COLOR = "#47E4B1";
+    const RED_COLOR = "#F1373B";
+    const PURPLE_COLOR = "#9C528B";
+    const GRAY_COLOR = "#45464C";
 
     return {
       parent: {
         boxSizing: "border-box",
         display: "inline",
-        padding: 0,
         fontFamily: "'Open Sans', sans-serif",
         width: "100%",
         height: "auto"
@@ -169,14 +169,14 @@ class CustomTheme extends Component {
 
       // INDEPENDENT AXIS
       axisYears: {
-        axis: { stroke: '#45464C', strokeWidth: 1},
+        axis: { stroke: GRAY_COLOR, strokeWidth: 1},
         ticks: {
-          stroke: '#45464C',
-          strokeWidth: 3,
+          stroke: GRAY_COLOR,
+          strokeWidth: 2,
           size: 5
         },
         tickLabels: {
-          fill: '#45464C',
+          fill: GRAY_COLOR,
           fontFamily: "inherit",
           fontSize: 10,
         }
@@ -186,25 +186,25 @@ class CustomTheme extends Component {
       axisOne: {
         grid: {
           stroke: (tick) =>
-            tick === -10 ? "transparent" : "#45464C",
+            tick === -10 ? "transparent" : GRAY_COLOR,
           strokeWidth: 2
         },
         axis: { stroke: BLUE_COLOR, strokeWidth: 0 },
         ticks: { strokeWidth: 2},
         tickLabels: {
-          fill: '#45464C',
+          fill: GRAY_COLOR,
           fontFamily: "Open Sans",
           fontSize: 10
         }
       },
       labelOne: {
-        fill: "#45464C",
-        fontFamily: "inherit",
+        fill: GRAY_COLOR,
+        fontFamily: "Open Sans",
         fontSize: 14,
         fontWeight: 300
       },
       lineOne: {
-        data: { stroke: BLUE_COLOR, strokeWidth: 4.5 }
+        data: { stroke: BLUE_COLOR, strokeWidth: 2.5 }
       },
       axisOneCustomLabel: {
         fill: BLUE_COLOR,
@@ -222,10 +222,10 @@ class CustomTheme extends Component {
         fontStyle: "italic"
       },
       lineTwo: {
-        data: { stroke: RED_COLOR, strokeWidth: 4.5 }
+        data: { stroke: RED_COLOR, strokeWidth: 2.5 }
       },
       lineThree: {
-        data: { stroke: PURPLE_COLOR, strokeWidth: 4.5 }
+        data: { stroke: PURPLE_COLOR, strokeWidth: 2.5 }
       }
     };
   }
