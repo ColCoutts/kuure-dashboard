@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 .collabs-header {
   display: flex;
   background-color: white;
@@ -8,12 +10,12 @@
     padding: 2rem 2rem;
     
     h1 {
-      color: #9f8f7b;
+      color: $brand-color;
       padding-bottom: 1rem;
     }
 
     h2 {
-      color: darkgray;
+      color:$secondary-gray;
       font-weight: 100;
     }
   }
@@ -24,7 +26,29 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    overflow-y: scroll;
+    overflow-y: auto;
     background-color: white;
+
+    &::-webkit-scrollbar {
+      width: 2px;
+    }
+    
+    &::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 20px rgba(0,0,0,0.3); 
+      box-shadow: inset 0 0 20px rgba(0,0,0,0.3); 
+      border-radius: 10px;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      -webkit-box-shadow: inset 0 0 50px $scroll-color; 
+      box-shadow: inset 0 0 50px $scroll-color; 
+    }
+    
+    &::-webkit-scrollbar-thumb:hover {
+     -webkit-box-shadow: inset 0 0 50px $scroll-color;
+     box-shadow: inset 0 0 50px $scroll-color;
+    }
+
   }
 }

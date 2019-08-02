@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 .sales-container {
   display: flex;
   flex-direction: column;
@@ -15,7 +17,7 @@
     padding: 2rem 2rem;
     
     h1 {
-      color: #9f8f7b;
+      color: $brand-color;
     }
   }
 
@@ -32,6 +34,6 @@
     width: 80%;
     height: auto;
     padding: 2rem 0rem;
-    border-top: 2px solid lightgray;
+    border-top: 2px solid $light-gray;
   }
 }
