@@ -40,7 +40,7 @@ class CustomTheme extends Component {
               Note that all components plotted against this axis will have the same y domain
             */}
             <VictoryAxis dependentAxis
-              domain={[0, 50000]}
+              domain={[0, 20000]}
               offsetX={50}
               orientation="left"
               standalone={false}
