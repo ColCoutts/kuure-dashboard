@@ -19,11 +19,12 @@ class Victory extends Component {
   render() {
     return(
       <VictoryChart>
-        <VictoryGroup offset={5}
-          width={1500}
+        <VictoryGroup
+          offset={5}
           colorScale={"qualitative"}
         >
           <VictoryBar
+          style={{ data: { stroke: '2px solid #f2f2' }}}
             categories={
               {
                 x: [
@@ -58,6 +59,7 @@ class Victory extends Component {
                 { x: 12, y: 10 }
               ]
             }
+            
           />
           <VictoryBar
             data={
@@ -65,15 +67,15 @@ class Victory extends Component {
                 { x: 1, y: 20 },
                 { x: 2, y: 20 },
                 { x: 3, y: 20 },
-                { x: 4, y: 20},
-                { x: 5, y: 20},
-                { x: 6, y: 20},
-                { x: 7, y: 20},
-                { x: 8, y: 20},
-                { x: 9, y: 20},
-                { x: 10, y: 20},
-                { x: 11, y: 20},
-                { x: 12, y: 20}
+                { x: 4, y: 20 },
+                { x: 5, y: 20 },
+                { x: 6, y: 20 },
+                { x: 7, y: 20 },
+                { x: 8, y: 20 },
+                { x: 9, y: 20 },
+                { x: 10, y: 20 },
+                { x: 11, y: 20 },
+                { x: 12, y: 20 }
               ]
             }
           />

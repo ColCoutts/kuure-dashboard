@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './sales.styles.scss';
 import metrics from './sales.data.js';
-import Victory from '../victory/victory-component';
+// import Victory from '../victory/victory-component';
 import MetricItem from '../metric-item/metric-item-component';
-
+import CustomTheme from '../victory/custom-component';
 
 class Sales extends Component {
   constructor() {
@@ -21,7 +21,7 @@ class Sales extends Component {
             <h1>Sales</h1>
           </div>
           <div className='data-visualizer'>
-            <Victory />
+            <CustomTheme />
           </div>
           <div className='sales-menu'>
             {
