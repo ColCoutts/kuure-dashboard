@@ -1,10 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Header from './header-component';
+import CustomButton from './custom-button.component';
 
-describe('header component', () => {
+describe('button component', () => {
   it('renders a snapshot', () => {
-    const wrapper = shallow(<Header />);
+    const wrapper = shallow(<CustomButton />);
     expect(wrapper).toMatchSnapshot();
   });
 });

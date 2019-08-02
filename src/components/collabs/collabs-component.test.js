@@ -1,10 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Header from './header-component';
+import Collabs from './collabs-component';
 
-describe('header component', () => {
+describe('collabs component', () => {
   it('renders a snapshot', () => {
-    const wrapper = shallow(<Header />);
+    const wrapper = shallow(<Collabs />);
     expect(wrapper).toMatchSnapshot();
   });
 });
