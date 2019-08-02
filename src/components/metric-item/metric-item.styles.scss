@@ -4,6 +4,36 @@
   align-items: center;
   justify-content: space-evenly;
 
+  &.green {
+    background-color: #47E4B1;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    h1, h2 {
+      color: white;
+      letter-spacing: 1px;
+    }
+  }
+
+  &.red {
+    background-color: #F1373B;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    h1, h2 {
+      color: white;
+      letter-spacing: 1px;
+    }
+  }
+
+  &.purple {
+    background-color: #9C528B;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    h1, h2 {
+      color: white;
+      letter-spacing: 1px;
+    }
+  }
+
   h1 {
     color: #45464C;
     font-family: 'Open Sans';
