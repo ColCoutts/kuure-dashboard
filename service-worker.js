@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kuure-dashboard/precache-manifest.fc6511b8552e39fbd4feb3d28b16b099.js"
+  "/kuure-dashboard/precache-manifest.4046db7f88b9a159358d9906cda1ecba.js"
 );
 
 self.addEventListener('message', (event) => {

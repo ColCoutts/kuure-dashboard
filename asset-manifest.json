@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/kuure-dashboard/static/css/main.491729ac.chunk.css",
-    "main.js": "/kuure-dashboard/static/js/main.7ed07884.chunk.js",
-    "main.js.map": "/kuure-dashboard/static/js/main.7ed07884.chunk.js.map",
+    "main.js": "/kuure-dashboard/static/js/main.b6f629b3.chunk.js",
+    "main.js.map": "/kuure-dashboard/static/js/main.b6f629b3.chunk.js.map",
     "runtime~main.js": "/kuure-dashboard/static/js/runtime~main.8c125c7d.js",
     "runtime~main.js.map": "/kuure-dashboard/static/js/runtime~main.8c125c7d.js.map",
-    "static/js/2.7a8d6ead.chunk.js": "/kuure-dashboard/static/js/2.7a8d6ead.chunk.js",
-    "static/js/2.7a8d6ead.chunk.js.map": "/kuure-dashboard/static/js/2.7a8d6ead.chunk.js.map",
+    "static/js/2.9e12b1e0.chunk.js": "/kuure-dashboard/static/js/2.9e12b1e0.chunk.js",
+    "static/js/2.9e12b1e0.chunk.js.map": "/kuure-dashboard/static/js/2.9e12b1e0.chunk.js.map",
     "index.html": "/kuure-dashboard/index.html",
-    "precache-manifest.fc6511b8552e39fbd4feb3d28b16b099.js": "/kuure-dashboard/precache-manifest.fc6511b8552e39fbd4feb3d28b16b099.js",
+    "precache-manifest.4046db7f88b9a159358d9906cda1ecba.js": "/kuure-dashboard/precache-manifest.4046db7f88b9a159358d9906cda1ecba.js",
     "service-worker.js": "/kuure-dashboard/service-worker.js",
     "static/css/main.491729ac.chunk.css.map": "/kuure-dashboard/static/css/main.491729ac.chunk.css.map",
     "static/media/Kuure-logo.92fb1099.svg": "/kuure-dashboard/static/media/Kuure-logo.92fb1099.svg"

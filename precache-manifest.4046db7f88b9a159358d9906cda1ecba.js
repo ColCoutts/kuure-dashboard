@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e49b18ef1c663e328523a3a7dd491d56",
+    "revision": "8513e1d795c37e1cd72c41bc0146b027",
     "url": "/kuure-dashboard/index.html"
   },
   {
-    "revision": "41d7a111cbb3ecfb95a0",
+    "revision": "0ca8ca38d04f06ea8dd6",
     "url": "/kuure-dashboard/static/css/main.491729ac.chunk.css"
   },
   {
-    "revision": "e0bb6623a59ffb5e2a74",
-    "url": "/kuure-dashboard/static/js/2.7a8d6ead.chunk.js"
+    "revision": "92997d6269d1568ad1ff",
+    "url": "/kuure-dashboard/static/js/2.9e12b1e0.chunk.js"
   },
   {
-    "revision": "41d7a111cbb3ecfb95a0",
-    "url": "/kuure-dashboard/static/js/main.7ed07884.chunk.js"
+    "revision": "0ca8ca38d04f06ea8dd6",
+    "url": "/kuure-dashboard/static/js/main.b6f629b3.chunk.js"
   },
   {
     "revision": "4010d7df4bbfa2e61407",
